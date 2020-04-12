@@ -1,0 +1,86 @@
+1://This test case is only for homework explanation
+#token key:int
+#token id:main
+#token punc:(
+#token punc:)
+#token punc:{
+2:int main () {
+#token key:double
+#token id:a
+#token op:=
+#token double:6.0
+#token punc:;
+3:    double a = 6.0;
+#token key:int
+#token id:i
+#token punc:;
+4:    int i;
+#token key:int
+#token id:b
+#token punc:[
+#token integer:2
+#token punc:]
+#token punc:;
+5:    int b[2];
+#token key:for
+#token punc:(
+#token id:i
+#token op:=
+#token integer:0
+#token punc:;
+#token id:i
+#token op:<
+#token integer:2
+#token punc:;
+#token id:i
+#token op:++
+#token punc:)
+#token punc:{
+6:    for (i = 0; i < 2; i++) {
+#token id:b
+#token punc:[
+#token id:i
+#token punc:]
+#token op:=
+#token id:i
+#token punc:;
+7:        b[i] = i;
+#token punc:}
+8:    }
+#token key:printf
+#token punc:(
+#token string:"b[1]=%d\n"
+#token punc:,
+#token id:b
+#token punc:[
+#token integer:1
+#token punc:]
+#token punc:)
+#token punc:;
+9:    printf("b[1]=%d\n", b[1]);
+#token key:if
+#token punc:(
+#token id:b
+#token punc:[
+#token integer:0
+#token punc:]
+#token op:>
+#token integer:1
+#token punc:)
+#token punc:{
+10:    if (b[0] > 1){
+#token id:a
+#token op:=
+#token id:a
+#token op:*
+#token double:1.23
+#token punc:;
+11:        a = a * 1.23;
+#token punc:}
+12:    }
+#token key:return
+#token integer:0
+#token punc:;
+13:    return 0;
+14: 
+#token punc:}
