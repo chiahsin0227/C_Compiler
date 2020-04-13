@@ -1,86 +1,141 @@
-1://This test case is only for homework explanation
+#token key:void
 #token key:int
-#token id:main
-#token punc:(
-#token punc:)
-#token punc:{
-2:int main () {
 #token key:double
-#token id:a
-#token op:=
-#token double:6.0
-#token punc:;
-3:    double a = 6.0;
-#token key:int
-#token id:i
-#token punc:;
-4:    int i;
-#token key:int
-#token id:b
-#token punc:[
-#token integer:2
-#token punc:]
-#token punc:;
-5:    int b[2];
+#token id:bool
+#token key:char
+#token id:null
 #token key:for
-#token punc:(
-#token id:i
-#token op:=
-#token integer:0
-#token punc:;
-#token id:i
-#token op:<
-#token integer:2
-#token punc:;
-#token id:i
-#token op:++
-#token punc:)
-#token punc:{
-6:    for (i = 0; i < 2; i++) {
-#token id:b
-#token punc:[
-#token id:i
-#token punc:]
-#token op:=
-#token id:i
-#token punc:;
-7:        b[i] = i;
-#token punc:}
-8:    }
-#token key:printf
-#token punc:(
-#token string:"b[1]=%d\n"
-#token punc:,
-#token id:b
-#token punc:[
-#token integer:1
-#token punc:]
-#token punc:)
-#token punc:;
-9:    printf("b[1]=%d\n", b[1]);
+#token key:while
+#token key:do
 #token key:if
-#token punc:(
-#token id:b
-#token punc:[
-#token integer:0
-#token punc:]
+#token key:else
+#token key:switch
+#token key:return
+#token key:break
+1:void int double bool char null for while do if else switch return break
+#token key:continue
+#token key:const
+#token id:true
+#token id:false
+#token key:struct
+#token key:case
+#token key:default
+2:continue const true false struct case default
+#token key:fclose
+#token key:clearerr
+#token key:feof
+#token key:ferror
+#token key:fflush
+#token key:fgetpos
+#token key:fopen
+#token key:fread
+#token key:freopen
+#token key:fseek
+#token key:fsetpos
+#token key:ftell
+#token key:fwrite
+#token key:remove
+3:fclose clearerr feof ferror fflush fgetpos fopen fread freopen fseek fsetpos ftell fwrite remove 
+#token key:rename
+#token key:rewind
+#token key:setbuf
+#token key:setvbuf
+#token key:tmpfile
+#token key:tmpnam
+#token key:fprintf
+#token key:printf
+#token key:sprintf
+#token key:vfprintf
+#token key:vprintf
+#token key:vsprintf
+#token key:fscanf
+4:rename rewind setbuf setvbuf tmpfile tmpnam fprintf printf sprintf vfprintf vprintf vsprintf fscanf
+#token key:scanf
+#token key:sscanf
+#token key:fgetc
+#token key:fgets
+#token key:fputc
+#token key:fputs
+#token key:getc
+#token key:getchar
+#token key:gets
+#token key:putc
+#token key:putchar
+#token key:puts
+#token key:ungetc
+#token key:perror
+5:scanf sscanf fgetc fgets fputc fputs getc getchar gets putc putchar puts ungetc perror
+#token op:+
+#token op:-
+#token op:*
+#token op:/
+#token op:%
+#token op:++
+#token op:--
+#token op:<
+#token op:<=
 #token op:>
-#token integer:1
+#token op:>=
+#token op:==
+#token op:!=
+#token op:=
+#token op:&&
+#token op:||
+#token op:!
+6:+ - * / % ++ -- < <= > >= == != = && || !
+#token punc::
+#token punc:;
+#token punc:,
+#token punc:.
+#token punc:[
+#token punc:]
+#token punc:(
 #token punc:)
 #token punc:{
-10:    if (b[0] > 1){
-#token id:a
-#token op:=
-#token id:a
-#token op:*
-#token double:1.23
-#token punc:;
-11:        a = a * 1.23;
 #token punc:}
-12:    }
-#token key:return
-#token integer:0
-#token punc:;
-13:    return 0;
-14: 
-#token punc:}
+7:: ; , . [] () {}
+#token integer:1
+#token integer:2
+#token integer:3
+#token integer:4
+#token integer:567
+#token integer:8910
+8:1 2 3 4 567 8910  
+#token double:2.3
+#token double:3.3
+#token double:55.1
+#token double:0.2
+#token double:0.8888
+#token double:.2323
+9:2.3 3.3 55.1 0.2 0.8888 .2323
+#token char:'a'
+#token char:'b'
+#token char:'c'
+#token char:'d'
+#token char:'z'
+#token char:'@'
+#token char:'#'
+10:'a' 'b' 'c' 'd' 'z' '@' '#'
+#token id:Please
+#token id:make
+#token id:sure
+#token id:your
+#token id:output
+#token id:format
+#token id:is
+#token id:correct
+#token id:or
+#token id:you
+#token id:will
+#token id:receive
+#token id:zero
+#token id:credit
+11:Please make sure your output format is correct or you will receive zero credit
+#token id:You
+#token id:have
+#token id:been
+#token id:warned
+12:You have been warned
+#token id:Seriously
+13:Seriously
+#token string:"'"
